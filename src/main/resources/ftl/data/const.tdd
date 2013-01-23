@@ -1,0 +1,3 @@
+# constants in here
+# manifest: "manifest=/cache.manifest"
+manifest: ""
