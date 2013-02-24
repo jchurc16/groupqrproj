@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<title>Welcome to the QR Mobile Demo!</title>
+
+<script src="/js/jquery/jquery-1.8.2.min.js"></script>
+<script src="/js/jquery-mobile/jquery.mobile-1.2.0.min.js"></script>
+
+<script src="/js/photoswipe/lib/klass.min.js"></script>
+<script src="/js/photoswipe/code.photoswipe.jquery-3.0.5.1.js"></script>
+
+<script src="/js/local.js"></script>
+<style>
+body
+{
+background-image:url('background.png');
+width:98%;
+height:80%;
+}
+#container {
+  width: 90%;
+  height:100%;
+  margin: 0 auto;
+  padding: 0; 
+background-color:grey;  
+}
+#header {
+vertical-align:inherit;
+}
+</style
+</head>
+
+<body>
+
+<div data-role="page" id="body">
+<div id="container">
+	<div data-role="header" id="header">
+		<center><h1>Mobile shop demo</h1></center>
+	</div><!-- /header -->
+
+	<center><div data-role="content" id="maincontent">
+        <p>This is the main page of the site, which will link to the photo descriptions, and the shop.</p>
+		<img src="high-light06.jpg" alt="Main Image" width="100%">
+
+        <p>At the moment there is <a href="sample.html" data-ajax="false">a page</a>
+          and <a href="content/galleries/high_light_gallery.html">an image gallery</a> and the
+          rudiments of <a href="store.html">a shop</a></p>
+	</div></center><!-- /content -->
+
+<div data-role="footer" data-position="fixed" id="footer">
+    <a href="/store" data-icon="shopping-cart" data-icopos="notext">Shop</a>
+</div><!-- /footer -->
+</div><!-- /page -->
+</div>
+
+</body>
+</html>
