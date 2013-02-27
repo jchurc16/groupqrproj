@@ -1,0 +1,17 @@
+body
+{
+background-image:url('background.png');
+width:98%;
+height:80%;
+}
+#container {
+  width: 90%;
+  height:100%;
+  margin: 0 auto;
+  padding: 0; 
+background-color:grey;  
+}
+#header {
+vertical-align:inherit;
+}
+

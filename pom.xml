@@ -127,10 +127,13 @@
                 </configuration>
             </plugin>
 
-            <plugin>
+           <plugin>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
-                <version>${appengine.target.version}</version>
+                <version>1.7.6-SNAPSHOT</version>
+                <configuration>
+                    <address>0.0.0.0</address>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>com.googlecode.fmpp-maven-plugin</groupId>

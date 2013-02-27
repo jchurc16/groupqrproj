@@ -6,25 +6,25 @@
     <#include "inc/_head.ftl">
 </head>
 
+
 <body>
 
-<div data-role="page">
-
-	<div data-role="header">
-		<h1>QR Mobile Demo</h1>
+<div data-role="page" id="body">
+<div id="container">
+	<div data-role="header" id="header">
+		<center><h1>QR Mobile Demo</h1></center>
 	</div><!-- /header -->
 
-	<div data-role="content">
+	<center><div data-role="content" id="maincontent">
         <p>This is the main page of the site, which will link to the photo descriptions, and the shop.</p>
+		<img src="high-light06.jpg" alt="Main Image" width="100%" max-width="400px">
 
-        <p>At the moment there is <a href="content/pages/sample.html" data-ajax="false">a page</a>
-          and <a href="content/galleries/high_light_gallery.html">an image gallery</a> and the
-          rudiments of <a href="store">a shop</a></p>
-	</div><!-- /content -->
+        
+	</div></center><!-- /content -->
 
-    <#include "inc/_foot.ftl">
-
+<#include "inc/_foot.ftl">
 </div><!-- /page -->
+</div>
 
 </body>
 </html>
