@@ -1,5 +1,13 @@
 [
     {
+    "id" : "Test",
+    "title" : "Test item",
+    "description" : "Pictures of subjects undergoing tests.",
+    "thumb" : "test_t.jpg",
+    "image": "test.jpg",
+    "unitPrice": 5.99
+    },
+    {
     "id" : "wildplaces",
     "title" : "2013 Scotland - the Wild Places",
     "description" : "Pictures of wild scotland",

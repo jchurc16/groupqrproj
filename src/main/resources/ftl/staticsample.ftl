@@ -16,9 +16,9 @@
 	</div><!-- /header -->
 
 	<center><div data-role="content" id="maincontent">
-        <p>This is the main page of the site, which will link to the photo descriptions, and the shop.</p>
-		<img src="high-light06.jpg" alt="Main Image" width="100%" max-width="400px">
-<a href="staticsample.html" data-role="button">To the example page!</a>
+        <p>This is a page built to test our ability to add pages to the site.</p>
+		
+<a href="index.html" data-role="button">To the home page!</a>
         
 	</div></center><!-- /content -->
 

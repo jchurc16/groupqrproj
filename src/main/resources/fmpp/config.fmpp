@@ -1,5 +1,5 @@
 sourceRoot: ../ftl
-sources: [index.ftl, 404.ftl, error.ftl, content/pages/sample.ftl, content/galleries/high_light_gallery.ftl]
+sources: [index.ftl, 404.ftl, error.ftl, staticsample.ftl, content/pages/sample.ftl, content/galleries/high_light_gallery.ftl]
 replaceExtensions: [ftl,html, fjs, js]
 data: {
     tdd(data/const.tdd)
