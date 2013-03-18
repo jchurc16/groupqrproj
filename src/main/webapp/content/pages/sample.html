@@ -21,6 +21,15 @@
 <script src="/js/photoswipe/code.photoswipe.jquery-3.0.5.1.js"></script>
 
 <script src="/js/local.js"></script>
+<script>
+$("#QR").live("click", function (e) {
+    alert('Works!');
+var pathname = window.location.href;
+var dest = pathname + '/qr';
+window.location.href = dest;
+});
+
+</script>
 </head>
 
 <body>
@@ -45,6 +54,10 @@
     <a href="/store" data-icon="shopping-cart" data-icopos="notext">Shop</a>
     <a href="staticsample.html" data-icon="home" data-icopos="notext">Sample page</a>
     <a href="content/galleries/high_light_gallery.html" data-icon="home" data-icopos="notext">Image gallery</a>
+<div id="QR">
+  Click here
+</div>
+
 </div><!-- /footer -->
 </div><!-- /page -->
 

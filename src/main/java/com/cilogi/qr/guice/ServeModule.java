@@ -1,4 +1,4 @@
-// Copyright (c) 2010 Cilogi All Rights Reserved.
+ // Copyright (c) 2010 Cilogi All Rights Reserved.
 //
 // File:        ServeModule.java  (05-Oct-2010)
 // Author:      Cilogi
@@ -58,8 +58,8 @@ public class ServeModule extends ServletModule {
         serve("/store/item/*").with(ItemServlet.class);
         serve("/store/basket").with(BasketServlet.class);
 
-        serve("/qr/*").with(QRServlet.class);
-
+        serve("*/qr").with(QRServlet.class);
+       
         serve("/cron/wake").with(WakeServlet.class);
         // should serve / with servlet that delivers 404
 

@@ -17,3 +17,12 @@
 <script src="/js/photoswipe/code.photoswipe.jquery-3.0.5.1.js"></script>
 
 <script src="/js/local.js"></script>
+<script>
+$("#QR").live("click", function (e) {
+    alert('Works!');
+var pathname = window.location.href;
+var dest = pathname + '/qr';
+window.location.href = dest;
+});
+
+</script>
