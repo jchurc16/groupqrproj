@@ -7,4 +7,11 @@
                 <goal>appengine:devserver</goal>
             </goals>
         </action>
+        <action>
+            <actionName>CUSTOM-upload app to GAE</actionName>
+            <displayName>upload app to GAE</displayName>
+            <goals>
+                <goal>appengine:update</goal>
+            </goals>
+        </action>
     </actions>

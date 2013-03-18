@@ -68,7 +68,7 @@ public class ServeLogic extends AbstractModule {
 
         // we make this explicit as a security measure.
         //bindString("host", isDevelopmentServer() ? "http://localhost:8080" : "http://qr2mobile.appspot.com");
-        bindString("host", "http://qr2mobile.appspot.com");
+        bindString("host", "http://qrprojtest3.appspot.com");
         bindString("manifest", "");
     }
 

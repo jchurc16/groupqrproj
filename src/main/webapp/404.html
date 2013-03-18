@@ -23,10 +23,18 @@
 <script src="/js/local.js"></script>
 <script>
 $("#QR").live("click", function (e) {
-    alert('Works!');
-var pathname = window.location.href;
-var dest = pathname + '/qr';
-window.location.href = dest;
+
+var url=document.URL.split('.com')[1];
+    if(url == undefined){
+        url = '';
+    }
+ 
+    // If the parameter exists create the message and insert into our paragraph
+    if(url != ''){
+        url= "/qr/"+url;
+       window.location.href = url;
+    }
+
 });
 
 </script>

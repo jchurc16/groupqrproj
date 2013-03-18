@@ -43,6 +43,8 @@ public class GenShortURLGoogle extends BaseGen {
     }
 
     JSONObject getShortenedURLAsJson(String inputURL) throws IOException  {
+       
+
         URLFetchService fetch = URLFetchServiceFactory.getURLFetchService();
         HTTPRequest request = new HTTPRequest(new URL(baseURL), HTTPMethod.POST);
         HTTPHeader header = new HTTPHeader("Content-Type", "application/json");
